@@ -2,6 +2,53 @@
     list-style: none;
 }
 
-#tipo {
+.container {
+    max-width: 480px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#tipo,
+#nome {
     margin-left: 5px;
+    text-transform: capitalize;
+}
+
+.--electric {
+    background-color: yellow;
+}
+
+#title {
+    text-align: center;
+    padding: 36px 0;
+}
+
+.content {
+    display: block;
+    
+}
+
+.form {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.form-control {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.form-control:focus {
+    border: none;
+}
+
+#button {
+    margin-top: 5px;
 }

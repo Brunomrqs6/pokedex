@@ -24,12 +24,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
             for (let i = 0; i < tamanho ; i ++) {
                 poke_types.push(json.types[i].type.name)
-                tipo.innerText = poke_types.join(', ')
+                tipo.innerText = poke_types.join(', ');
+
             }
-            
-
-
-            
+                 
             nome.innerText = json.name;
             imagem.src = json.sprites.front_default; 
             /*if (type1 !== null) {

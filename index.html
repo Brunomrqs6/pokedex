@@ -11,21 +11,24 @@
     <div class="container">
         <div class="row">
             <div>
-                <h1>Pokédex</h1>
+                <h1 id="title">Pokédex</h1>
             </div>
         </div>
+        <div class="content"></div>
         <div class="row">
-            <div class="col-6">
-                <img id="pokemon-image" class="d-block w-50" src="" alt="">
+            <div class="col-12 image">
+                <img id="pokemon-image" class=" w-50" src="" alt="">
             </div>
-            <div class="col-6">
+        <div class="row">
+            <div class="col-12">
                 <ul>
                     <li>Nome: <span id="nome"></span></li>
-                    <li class="d-flex">Tipo: <span id="tipo"> </span></li>
+                    <li class="text-center">Tipo: <span id="tipo"> </span></li>
                 </ul>
             </div>
+        </div>
             <div>
-                <form>
+                <form class="form">
                     <input type="text" id="pokemon-name" class="form-control" placeholder="Digite o Pokémon">
                     <button id="button" type="submit" class="btn btn-success">Enviar</button>
                 </form>
