@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(Pokemon.ttf);
+}
+
 * {
     list-style: none;
 }
@@ -7,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 480px;
+    max-width: 360px;
     height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -146,6 +151,7 @@ body {
 #title {
     text-align: center;
     margin: 0;
+    font-family: Pokemon;
 }
 
 .content {
@@ -160,9 +166,11 @@ body {
 }
 
 .form-control {
+    display: flex;
     text-align: center;
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 360px;
+    width: 100%;
+    
 }
 
 .form-control:focus {
