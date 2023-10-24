@@ -2,6 +2,10 @@
     list-style: none;
 }
 
+body {
+    background-color: #ced6e0
+}
+
 .container {
     max-width: 480px;
     height: 100vh;
@@ -14,18 +18,134 @@
 }
 
 #tipo,
-#nome {
+#nome,
+#tipo2,
+#id {
     margin-left: 5px;
     text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+.--fire {
+    background-color: 	#f34b4b;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.--grass {
+    background-color: #70c8a0;
+    padding: 0 5px;
+    border-radius: 5px;
 }
 
 .--electric {
     background-color: yellow;
+    padding: 0 5px;
+    border-radius: 5px;
+    
 }
+
+.--water {
+    background-color: #5db9ff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--fighting {
+    background-color: #d56723;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--normal {
+    background-color: #a4acaf;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--flying {
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--poison {
+    background-color: #b97fc9;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--ground {
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--fairy {
+    background-color: #fdb9e9;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--rock {
+    background-color: #a38c21;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--bug {
+    background-color: #729f3f;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--ice {
+    background-color: #51c4e7;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--dark {
+    background-color: #707070;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--dragon {
+    background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--psychic  {
+    background-color: #f366b9;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--ghost {
+    background-color: #7b62a3;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.--steel {
+    background-color: #9eb7b8;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
 
 #title {
     text-align: center;
-    padding: 36px 0;
+    margin: 0;
 }
 
 .content {
@@ -41,7 +161,7 @@
 
 .form-control {
     text-align: center;
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
